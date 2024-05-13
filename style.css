@@ -1,0 +1,114 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Dark background color */
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+}
+
+/* Hero Section styles */
+#hero {
+    background-image: url('path/to/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* White text color */
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 24px;
+}
+
+/* Featured Products Section styles */
+#products {
+    padding: 50px 0; /* Add some vertical spacing */
+    background-color: #f4f4f4; /* Light background color */
+    text-align: center;
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 200px; /* Adjust image size as needed */
+    border-radius: 8px;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.product p {
+    color: #777; /* Gray text color */
+}
+
+/* News/Updates Section styles */
+#news {
+    padding: 50px 0; /* Add some vertical spacing */
+    background-color: #fff; /* White background color */
+    text-align: center;
+}
+
+.news-item {
+    margin-bottom: 20px;
+}
+
+.news-item h3 {
+    margin-top: 10px;
+}
+
+.news-item p {
+    color: #777; /* Gray text color */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+}
